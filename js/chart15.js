@@ -41,7 +41,7 @@ option = {  tooltip: {
             interval: 0,
             textStyle: {
                 color: '#000',
-                fontSize: 18
+                fontSize: 14
             }
         }
     },
@@ -80,7 +80,7 @@ option = {  tooltip: {
     },
     title: {
         text: '年轻群体购买服装的频率分布', textStyle: {
-            fontSize: 28},left:'center',top:'2%'
+            fontSize: 26},left:'center',top:'2%'
         ,subtext:'单位:百分比（克劳锐指数研究院《年轻人生活消费观察系列研究--服装服饰篇》）',subtextStyle:{fontSize:14}
     },
     series: [

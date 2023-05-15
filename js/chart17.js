@@ -11,7 +11,7 @@ var dom = document.getElementById('container17');
   title: {   
   
     text: '影响五个国家和地区的消费者网购的因素', textStyle: {
-          fontSize: 28},left:'center',top:'1%'
+          fontSize: 26},left:'center',top:'1%'
     ,subtext:'单位:百分比（数据来源：国际环保组织Greenpeace发布的《狂欢之后：国际时尚消费调查报告》）',subtextStyle:{fontSize:12}
   },
   legend: {

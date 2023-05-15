@@ -8,9 +8,9 @@ var dom = document.getElementById('container16');
     var option;
 
     option = {
-    title: {padding: [20,20,100,100],
+    title: {padding: [30,30,200,200],
         text: '五个国家和地区受访者承认“他们买了超出自己经济能力范围的东西"', textStyle: {
-            fontSize: 28},left:'center'
+            fontSize: 20},left:'center'
         ,subtext:'单位:百分比（数据来源：国际环保组织Greenpeace发布的《狂欢之后：国际时尚消费调查报告》）',subtextStyle:{fontSize:12}
     },
 			tooltip: {
