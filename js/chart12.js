@@ -17,7 +17,7 @@ var dom = document.getElementById('container');
     },
     tooltip: {
         trigger: 'item',
-        formatter: '{a} <br/>{b}: {c} ({d}%)'
+        formatter: '{b}: {d}%'
     },
     legend: {
         data: [
