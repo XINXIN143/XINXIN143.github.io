@@ -10,8 +10,8 @@ var option;
 option = {
     backgroundColor: '#000000',//背景色
     title: {
-        text: '2018年服装和鞋类GHG排放',
-        subtext: '单位:百分比（数据来源：全球时尚议程《fashion-on-climate-full-report》）',
+        text: '温室气体排放（2018）',
+        subtext: '单位:百分比',
     },
     tooltip: {
         trigger: 'item',

@@ -7,12 +7,12 @@ var dom = document.getElementById('container17');
     
     var option;
 
-    option = { color: ['#6DB0F5', '#7CDAAC','#5F6F97', '#FADB3C', '#B2E0FB'] ,
+    option = { color: ['#FAF258', '#F1BD5E','#E55A55', '#EA8863', '#F5D85B'] ,
   title: {   
   
-    text: '影响五个国家和地区的消费者网购的因素', textStyle: {
+    text: '影响德意中消费者网购的因素', textStyle: {
           fontSize: 26},left:'center',top:'1%'
-    ,subtext:'单位:百分比（数据来源：国际环保组织Greenpeace发布的《狂欢之后：国际时尚消费调查报告》）',subtextStyle:{fontSize:12}
+    ,subtext:'单位:百分比',subtextStyle:{fontSize:12}
   },
   legend: {
     data: ['德国', '意大利','中国大陆','中国台湾','中国香港'],  
@@ -25,17 +25,17 @@ var dom = document.getElementById('container17');
     radius: "70%",
     center: ['50%', '50%'],//调整数据图在整个图中的位置
     indicator: [ 
-      { name: '朋友圈种草', max: 75,nameTextStyle:{fontSize:16,color:'black'}},
-      { name: '明星效应', max: 50,nameTextStyle:{fontSize:16,color:'black'}},
+      { name: '网络朋友圈种草', max: 75,nameTextStyle:{fontSize:16,color:'black'}},
+      { name: '明星效应', max: 75,nameTextStyle:{fontSize:16,color:'black'}},
       { name: '社交媒体影响', max: 75,nameTextStyle:{fontSize:16,color:'black'}},
-      { name: '朋友推荐', max: 75,min:10,nameTextStyle:{fontSize:16,color:'black'}},
+      { name: '和朋友一起买买买', max: 75,min:10,nameTextStyle:{fontSize:16,color:'black'}},
       { name: '促销', max: 75,min:50,nameTextStyle:{fontSize:16,color:'black'}},
-      { name: '饥饿营销', max: 40,min:10,nameTextStyle:{fontSize:16,color:'black'}}
+      { name: '饥饿营销', max: 75,min:10,nameTextStyle:{fontSize:16,color:'black'}}
     ],nameGap:17,//调整字距离图的大小
   },
   series: [
     {
-      name: '影响五个国家和地区的消费者网购的因素',
+      name: '影响德意中消费者网购的因素',
       type: 'radar',
       data: [
         {

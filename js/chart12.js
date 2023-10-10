@@ -9,10 +9,10 @@ var dom = document.getElementById('container');
 
      option = {backgroundColor:'#000',
     title: {
-        text: '2018年服装和鞋类GHG排放', left:'center',
+        text: '温室气体排放（2018）', left:'center',
                     top:30,
         textStyle:{color:'#FFFFFF',fontSize:32},
-        subtext: '单位:百分比（数据来源：全球时尚议程《fashion-on-climate-full-report》）',
+        subtext: '单位:百分比',
        subtextStyle:{color:'#FFFFFF',fontSize:12}
     },
     tooltip: {

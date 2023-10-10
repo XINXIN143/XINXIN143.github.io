@@ -7,8 +7,8 @@ var dom = document.getElementById('container');
     
     var option;
 
-    var xdata = ['每周都买', '每月都买好几次', '每月至少买1次', '2-3月买1次', '很少买，一年买几次'];
-var data = [34.9, 44.19, 16.28, 29.07, 6.98];
+    var xdata = ['每周都买', '每月都买好几次', '每月至少买一次', '2-3月买一次', '很少买，一年买几次'];
+var data = [3.49, 44.19, 16.28, 29.07, 6.98];
 
 option = {  tooltip: {
         trigger: 'axis',
@@ -81,7 +81,7 @@ option = {  tooltip: {
     title: {
         text: '年轻群体购买服装的频率分布', textStyle: {
             fontSize: 26},left:'center',top:'2%'
-        ,subtext:'单位:百分比（克劳锐指数研究院《年轻人生活消费观察系列研究--服装服饰篇》）',subtextStyle:{fontSize:14}
+        ,subtext:'单位:百分比',subtextStyle:{fontSize:14}
     },
     series: [
         {
